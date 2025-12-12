@@ -7,7 +7,7 @@
   "auth": { "type": "none" },
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/toddhaus/bjdstudio/main/openapi.yaml"
+    "url": "https://raw.githubusercontent.com/toddhaus/bjdstudio/main/filthpriest_openapi.yaml"
   },
   "contact_email": "toddhaus@gmail.com",
   "legal_info_url": "https://github.com/toddhaus/bjdstudio"
