@@ -16,6 +16,7 @@ paths:
         - name: filename
           in: path
           required: true
+          description: Name of the scene file. Example: scene_01.json
           schema:
             type: string
       responses:
