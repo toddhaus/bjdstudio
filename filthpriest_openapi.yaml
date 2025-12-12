@@ -4,10 +4,11 @@ info:
   version: "1.0.0"
 
 servers:
-  - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/main/kit
+  - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/main
 
 paths:
-  /scenes/{filename}:
+
+  /kit/scenes/{filename}:
     get:
       operationId: getScene
       summary: Fetch a Filth Priest scene JSON file.
@@ -15,7 +16,7 @@ paths:
         - name: filename
           in: path
           required: true
-          description: Name of the scene file (e.g., scene_01.json).
+          description: Name of the scene file. Example: scene_01.json
           schema:
             type: string
       responses:
@@ -24,7 +25,7 @@ paths:
         "404":
           description: File not found
 
-  /templates/prompt_template.txt:
+  /kit/templates/prompt_template.txt:
     get:
       operationId: getPromptTemplate
       summary: Fetch the global prompt template.
@@ -32,7 +33,7 @@ paths:
         "200":
           description: OK
 
-  /index_map.json:
+  /kit/index_map.json:
     get:
       operationId: getIndexMap
       summary: Fetch the global scene index map.
