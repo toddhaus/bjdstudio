@@ -4,7 +4,9 @@
   "name_for_model": "FilthPriest",
   "description_for_model": "Load Filth Priest JSON scenes, templates, and metadata directly from the GitHub repository.",
   "description_for_human": "Fetch scene JSONs and templates from your GitHub Filth Priest Image Kit.",
-  "auth": { "type": "none" },
+  "auth": {
+    "type": "none"
+  },
   "api": {
     "type": "openapi",
     "url": "https://raw.githubusercontent.com/toddhaus/bjdstudio/main/filthpriest_openapi.yaml"
