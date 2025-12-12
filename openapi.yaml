@@ -5,6 +5,7 @@ info:
 
 servers:
   - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/main/kit
+  
   paths:
   /scenes/{filename}:
     get:
