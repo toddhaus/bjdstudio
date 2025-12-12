@@ -5,8 +5,8 @@ info:
 
 servers:
   - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/main/kit
-  
-  paths:
+
+paths:
   /scenes/{filename}:
     get:
       operationId: getScene
@@ -27,10 +27,10 @@ servers:
   /templates/prompt_template.txt:
     get:
       operationId: getPromptTemplate
-    summary: Fetch the global prompt template.
-    responses:
-      "200":
-        description: OK
+      summary: Fetch the global prompt template.
+      responses:
+        "200":
+          description: OK
 
   /index_map.json:
     get:
