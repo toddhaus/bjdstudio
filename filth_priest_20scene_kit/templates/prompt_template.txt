@@ -1,1 +1,0 @@
-Prompt template: insert scene JSON and build image prompt.
