@@ -4,9 +4,8 @@ info:
   version: "1.0.0"
 
 servers:
-  - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/main
-
-paths:
+  - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/main/kit
+  paths:
   /scenes/{filename}:
     get:
       operationId: getScene
