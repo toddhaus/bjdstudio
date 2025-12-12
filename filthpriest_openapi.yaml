@@ -4,7 +4,8 @@ info:
   version: "1.0.0"
 
 servers:
-  - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/main
+  - url: https://raw.githubusercontent.com/toddhaus/bjdstudio/e9c5e7416a6c4c62b12cfca1f7a9c9484042e666/
+    description: Raw GitHub content pinned to commit e9c5e74 (base URL for the /kit/ files)
 
 paths:
 
